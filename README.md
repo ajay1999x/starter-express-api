@@ -1,11 +1,26 @@
-# starter-express-api
+# Simple Chat Application
 
-This is the simplest possible nodejs api using express that responds to any request with: 
-```
-Yo!
-```
+Built with:
 
-### Deploy it in 7 seconds: 
+  - <strong>Server side:</strong> Node.js, Socket.io
+  - <strong>NPM Modules:</strong> Mustache.js,Moment.js,Qs.js
 
-[![Deploy to Cyclic](https://deploy.cyclic.app/button.svg)](https://deploy.cyclic.app/)
+### Get the code
 
+    git clone https://github.com/kaganecee/nodejs-chat-app.git
+
+### Run
+
+Fetch dependencies:
+
+    npm install
+
+Launch chat server:
+
+    npm run dev
+    or 
+    node src/index.js
+
+Open this URL in your browser:
+
+    http://localhost:3000//
